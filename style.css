@@ -67,6 +67,7 @@ p{margin:0 0 1em;max-width:62ch}
 .gal img,.single,.feat img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
 .gal img[src^="mandala"]{aspect-ratio:auto;height:auto;object-fit:contain;align-self:start}
 .single{max-width:560px;margin-top:1.5rem}
+.split .single{margin-top:0;justify-self:center}
 .portrait{width:100%;max-width:420px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;justify-self:center}
 .plain{padding-left:1.2rem}
 
@@ -104,6 +105,7 @@ p{margin:0 0 1em;max-width:62ch}
 .nav{flex-direction:column;align-items:flex-start;padding:.8rem 1.2rem}
 .two,.three,.split{grid-template-columns:1fr}
 .portrait{max-width:340px;justify-self:start}
+.split .single{justify-self:start;margin-top:0}
 .ribbon{opacity:.6}
 .s,.close,.contact{padding:4rem 0}
 }
